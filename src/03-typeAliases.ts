@@ -86,15 +86,5 @@ import {
         return accumulator
     },[]);
     return buddyListFriends
-
-    // console.log(list)
-    // for (const buddy of list.members){
-    //     const findFriend=friends.find((x)=>x.name===buddy.name);
-    //     if(findFriend!==undefined){
-    //         return [findFriend]
-    //     }
-
-    // }
-    // return []
   }
   console.log("getFriends from buddylist",getBuddyListFriends(myFootballBuddies))
